@@ -1,0 +1,61 @@
+# ==========================================
+# CRITICAL CREDENTIALS & SENSITIVE SECRETS
+# ==========================================
+# Google OAuth 2.0 client secrets and active session tokens
+client_secret.json
+client_secret_*.json
+token.json
+token.pickle
+
+# Environment variables & keys
+.env
+.env.*
+*.pem
+*.key
+
+# ==========================================
+# RUNTIME & LOCAL STATE
+# ==========================================
+# Upload tracking history
+uploaded_log.json
+
+# Temporary download directory and partial files
+temp_downloads/
+*.part
+
+# ==========================================
+# MEDIA FILES (Prevent uploading large video files to Git)
+# ==========================================
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+*.flv
+
+# ==========================================
+# PYTHON ARTIFACTS & CACHES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# IDEs & OS METADATA
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
